@@ -1,9 +1,16 @@
 package school;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Student {
 	
-	private String registrationNumber;
+	private Registration registrationNumber;
 	private String name;
+	private Email email;
+	private List<Phone> phones = new ArrayList<Phone>();
 	
-	//private Email email;
+	public void addPhone(String code, String number) {
+		this.phones.add(new Phone(code, number));
+	}
 }
