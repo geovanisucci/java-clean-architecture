@@ -1,4 +1,4 @@
-package school;
+package br.com.school;
 
 import java.time.LocalDateTime;
 
