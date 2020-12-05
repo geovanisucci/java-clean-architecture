@@ -1,6 +1,8 @@
-package br.com.school;
+package indication;
 
 import java.time.LocalDateTime;
+
+import student.Student;
 
 public class Indication {
 	

@@ -1,4 +1,4 @@
-package br.com.school;
+package student;
 
 public class StudentBuilder {
 	
